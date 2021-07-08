@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+.item{
+    background-color: #b2b2ce;
+    border: 1px solid #000000;
+    position: relative;
+    float: left;
+}
+.paragraph{
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.title{
+    position: absolute;
+    top: -21px;
+    right: -1px;
+    border: 1px solid #000000;
+    width: 130px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.title1{
+    background-color: #a52a2a;
+}
+
+.title2{
+    background-color: #2ffff2;
+}
+
+.title3{
+    background-color: #ffff00;
+}
+
+@media(min-width: 992px){
+    h1{
+        position: absolute;
+        top: 20px;
+        left: 600px;
+    }
+
+    .item{
+        top:140px;
+    }
+
+    .item1{
+        width: 30%;
+        margin-left: 41px;
+    }
+
+    .item2{
+        width: 30%;
+        margin-left: 30px;
+    }
+
+    .item3{
+        width: 30%;
+        margin-left: 20px;
+    }
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    h1{
+        position: absolute;
+        top: 20px;
+        left: 320px;
+    }
+
+    .item{
+        top:140px;
+        margin-left: 60px;
+    }
+
+    .item1{
+        width: 40%;
+     
+    }
+
+    .item2{
+        width: 40%;
+        margin-left: 20px;
+    }
+
+    .item3{
+        width: 82.50%;
+        margin-top: 20px;
+    }
+
+}
+
+@media(max-width: 767px){
+    h1{
+        position: absolute;
+        top: 20px;
+        left: 200px;
+    }
+
+    .item{
+        top:70px;
+    }
+
+    .item1{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .item2{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .item3{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+}
